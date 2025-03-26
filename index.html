@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" />
+</head>
+
+<body>
+  <div class="preloader-parent">Loading...</div>
+
+  <div class="container">
+    <header>
+      <h1 data-aos="fade-up">Hi, I'm Dr. Your Name</h1>
+      <p data-aos="fade-up" data-aos-delay="100">PharmD | Health Data Analyst | PV Specialist</p>
+    </header>
+
+    <section class="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>
+        I'm passionate about data, healthcare, and tech. I bring 6+ years of pharmacovigilance experience, project work in oncology, COVID-19, and FHIR-based claim denial systems.
+      </p>
+    </section>
+
+    <section class="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="#">ADR Tracker System</a> - Automates adverse drug reporting with smart dashboards.</li>
+        <li><a href="#">FHIR Claim Dashboard</a> - Visualizes healthcare claim denial metrics.</li>
+        <li><a href="#">Vaccine Signal Detector</a> - Monitors safety signals in real-time.</li>
+      </ul>
+    </section>
+
+    <section class="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Email: yourname@email.com</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+    </section>
+  </div>
+
+  <div class="cursor"></div>
+  <div class="progress-wrap">
+    <svg class="progress-circle" width="100%" height="100%">
+      <path d="M50,1 a49,49 0 1,1 -0.1,0" />
+    </svg>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <script src="main.js"></script>
+  <script>AOS.init({ disable: 'mobile' });</script>
+</body>
+
+</html>
